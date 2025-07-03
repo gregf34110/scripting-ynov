@@ -1,0 +1,8 @@
+Source de donnée CSV: employes.csv
+
+script_powershell.ps1 ---> TP PARTIE 1 
+
+
+script_powershell_partie2 ---> TP PARTIE 2 
+  EmployeTools.psm1
+  rapport-employes.ps1
