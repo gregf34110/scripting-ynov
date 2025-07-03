@@ -1,3 +1,4 @@
+#PARTIE 1: 
 
 # Étape 1 — Chargement des données
 
