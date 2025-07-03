@@ -1,0 +1,26 @@
+[project]
+name = "python3-projet"
+version = "1.0.0"
+description = "Script d'initiation à Python 3"
+authors = [
+    {name = "gregf34110",email = "gregoryf34110@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "click",
+    "requests",
+]
+
+# --- AJOUTEZ CETTE SECTION ---
+[tool.poetry]
+packages = [
+    { include = "main.py" },
+    { include = "utils", from = "." }, # Tell Poetry to look for 'utils' in the current directory
+]
+# --- FIN DE L'AJOUT ---
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"] # Changed to >=1.0.0 for broader compatibility
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,4 @@
+python3 -m venv .venv
+source .venv/bin/activate -> Active le monde environnement virtuel de python
+deactivate -> Déscative domaine de virtualisation python
+pip install ansible -> install un module
